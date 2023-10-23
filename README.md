@@ -4,6 +4,10 @@ Overview
 
 This project showcases the capabilities of Azure Databricks by leveraging both Python and Scala for data analysis and querying. It serves as a testament to the proficiency in utilizing the Databricks platform and the versatility in handling multiple programming languages for data operations.
 
+Data Ingestion
+
+The data for this project is ingested from Azure Data Lake, showcasing the ability to integrate Azure Databricks with other Azure services for seamless data operations. This demonstrates the proficiency in handling cloud-based data storage and retrieval, ensuring that large datasets are easily accessible for analysis within Databricks.
+
 Features
 
     Databricks Workspace Setup: Configuration and setup of the Databricks workspace to ensure seamless integration with other Azure services.
@@ -24,7 +28,8 @@ Setup
 
     Databricks Workspace: Navigate to the Azure portal and create a new Databricks workspace.
     Cluster Configuration: Set up a new cluster ensuring optimal configurations for the project's requirements.
-    Data Import: Import the necessary datasets into the Databricks File System (DBFS) or connect to your data source.
+    Data Import: Connect to your Azure Data Lake Store by configuring the necessary authentication and access settings.
+    Use the Databricks utilities to import the datasets into the Databricks File System (DBFS) or directly access them from the Data Lake.
     Notebooks: Create new notebooks and import the provided Python and Scala code for data operations.
 
 Usage
